@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-image: url("assets/topography.webp");
+    font-family: 'Courier Prime', monospace;
+}
+nav {
+    background-color: #333333;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+a {
+    color: #ff0099;
+    margin-left: 15px;
+}
+#links {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 55%;
+}
+#navImage{
+    padding-left: 10%;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+article {
+    padding: 10%;
+}
+hr {
+    border-top: 3px dashed black;
+    width: 20px;
+    margin-bottom: 40px;
+
+}
+#needSomeMargin {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#profession {
+    color: #ff0099;
+}
+#name {
+    font-size: xxx-large;
+    margin-top: 0;
+}
+#wiki {
+    text-align: center;
+}
